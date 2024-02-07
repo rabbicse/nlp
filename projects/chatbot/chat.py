@@ -11,8 +11,8 @@ device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 with open('data/intents.json', 'r') as json_data:
     intents = json.load(json_data)
 
-FILE = "ml_output/data.pth"
-data = torch.load(FILE)
+model_file = "ml_output/data.pth"
+data = torch.load(model_file)
 
 input_size = data["input_size"]
 hidden_size = data["hidden_size"]
