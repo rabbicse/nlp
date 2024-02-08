@@ -40,3 +40,14 @@ Run the following python script to download nltk data
 python post_installation.py
 ```
 
+## Build and Run Dockerfile
+Run the following command to build.
+```commandline
+docker build -t chatbot .
+```
+
+Run the following command to run Docker container.
+```commandline
+docker build -t chatbot .
+```
+
