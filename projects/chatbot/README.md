@@ -46,8 +46,12 @@ Run the following command to build.
 docker build -t chatbot .
 ```
 
-Run the following command to run Docker container.
+Run the following command to run Docker container on port 8090.
 ```commandline
-docker build -t chatbot .
+docker run -d --name chatbot -p 8090:80 chatbot
 ```
 
+Now it's ready to access chatbot api. visit the following url to test.
+```
+http://localhost:8090/docs
+```
