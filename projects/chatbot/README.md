@@ -46,7 +46,7 @@ Run the following command to build.
 docker build -t chatbot .
 ```
 
-Run the following command to run Docker container on port 8090.
+Run the following command to run Docker container by exposing port 8090.
 ```commandline
 docker run -d --name chatbot -p 8090:80 chatbot
 ```
